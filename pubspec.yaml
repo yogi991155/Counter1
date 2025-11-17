@@ -1,0 +1,19 @@
+name: flower_counter_app
+description: A flower counter Flutter application.
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.0
+  shared_preferences: ^2.2.0
+  path_provider: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/flower.png
+    - assets/default_picture.png 
